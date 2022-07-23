@@ -1,11 +1,12 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-3172de1c.js",
+    "file": "_app/immutable/start-2c86b1f6.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-545e3c05.js",
       "_index-7681234b.js",
+      "_paths-b9644fda.js",
       "_singletons-eca981c1.js"
     ],
     "dynamicImports": [
@@ -41,13 +42,14 @@
     ]
   },
   "src/routes/dash/__layout.svelte": {
-    "file": "_app/immutable/pages/dash/__layout.svelte-37f480bf.js",
+    "file": "_app/immutable/pages/dash/__layout.svelte-c781788d.js",
     "src": "src/routes/dash/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-545e3c05.js",
       "_login_store-a1904add.js",
+      "_paths-b9644fda.js",
       "_index-7681234b.js"
     ]
   },
@@ -66,7 +68,7 @@
     ]
   },
   "src/routes/dash/index.svelte": {
-    "file": "_app/immutable/pages/dash/index.svelte-96c2ab8e.js",
+    "file": "_app/immutable/pages/dash/index.svelte-c41dc981.js",
     "src": "src/routes/dash/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -83,12 +85,13 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-e25317af.js",
+    "file": "_app/immutable/pages/index.svelte-a7530f2e.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-545e3c05.js"
+      "_index-545e3c05.js",
+      "_paths-b9644fda.js"
     ]
   },
   "src/routes/login.svelte": {
@@ -124,6 +127,9 @@
       "_index-545e3c05.js"
     ]
   },
+  "_paths-b9644fda.js": {
+    "file": "_app/immutable/chunks/paths-b9644fda.js"
+  },
   "_singletons-eca981c1.js": {
     "file": "_app/immutable/chunks/singletons-eca981c1.js"
   },
@@ -142,12 +148,12 @@
   "_api-374feec2.js": {
     "file": "_app/immutable/chunks/api-374feec2.js"
   },
-  "src/routes/dash/index.css": {
-    "file": "_app/immutable/assets/index-39a01441.css",
-    "src": "src/routes/dash/index.css"
-  },
   "src/routes/__layout.css": {
     "file": "_app/immutable/assets/__layout-16dde73e.css",
     "src": "src/routes/__layout.css"
+  },
+  "src/routes/dash/index.css": {
+    "file": "_app/immutable/assets/index-39a01441.css",
+    "src": "src/routes/dash/index.css"
   }
 }
