@@ -1,0 +1,1 @@
+import{w as t}from"./index-7681234b.js";const a=s=>`https://anilist.co/api/v2/oauth/authorize?client_id=${s}&response_type=token`,e=t({list:[],favourites:[]}),i=t({userid:NaN,token:"",valid:!1}),n=a("8951");export{i as J,e as U,n as l};

@@ -1,0 +1,1 @@
+import{S as s,i as o,s as r}from"../chunks/index-545e3c05.js";import{l as e}from"../chunks/login_store-a1904add.js";import"../chunks/index-7681234b.js";const u=async()=>({status:307,redirect:e});class c extends s{constructor(t){super(),o(this,t,null,null,r,{})}}export{c as default,u as load};
