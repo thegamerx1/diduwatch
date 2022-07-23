@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { UserData } from '$lib/login_store';
+	import { base } from '$app/paths';
 
 	const user = (name: any) => `https://anilist.co/user/${name}`;
 </script>
@@ -7,7 +8,7 @@
 <div class="h-screen flex flex-col">
 	<div class="navbar bg-base-100 px-5">
 		<div class="flex-1">
-			<a class="btn btn-ghost normal-case text-xl" href="/">DUW</a>
+			<a class="btn btn-ghost normal-case text-xl" href="{base}/">DUW</a>swz
 		</div>
 		<div class="flex-none">
 			<!-- <ul class="menu menu-horizontal p-0">
@@ -40,7 +41,7 @@
 					class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 				>
 					<li><a href={user($UserData.user?.name)}>{$UserData.user?.name}</a></li>
-					<li><a href="/logout">Logout</a></li>
+					<li><a href="{base}/logout">Logout</a></li>
 				</ul>
 			</div>
 		</div>

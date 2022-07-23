@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	import { browser } from '$app/env';
 	import { tweened } from 'svelte/motion';
 
 	import { JWT, UserData } from '$lib/login_store';
 	import { getAnimeData } from '$lib/api';
 
-	import Collapser from '$lib/Collapser.svelte';
 	import AnimeItem from '$lib/AnimeItem.svelte';
 	let animeStorage: Anime[] = [];
 	let toWatch: { anime: Anime; rels: Anime[] }[] = [];
@@ -19,7 +19,7 @@
 
 	if (browser) {
 		if (!$JWT.valid) {
-			goto('/login');
+			goto(`${base}/login`);
 		}
 		getData();
 	}

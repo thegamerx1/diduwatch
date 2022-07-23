@@ -2,6 +2,7 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { browser } from '$app/env';
+	import { base } from '$app/paths';
 
 	import { JWT, UserData } from '$lib/login_store';
 	import { getUserData, GraphError, getUserAnime } from '$lib/api';
@@ -23,7 +24,7 @@
 		if (userid !== NaN) {
 			gotToken();
 		} else {
-			goto('/');
+			goto(`${base}/`);
 		}
 	}
 
@@ -44,7 +45,7 @@
 		$JWT.token = token;
 		$JWT.userid = userid;
 		$JWT.valid = true;
-		goto('/dash');
+		goto(`${base}/dash`);
 	}
 </script>
 
