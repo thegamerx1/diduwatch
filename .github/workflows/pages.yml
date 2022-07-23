@@ -1,5 +1,8 @@
 name: Build and Deploy to Pages
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: ['master']
@@ -27,16 +30,13 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: gh-pages
-      - run: rm -rf *
       - uses: actions/download-artifact@v3
         with:
           name: build
-      - uses: EndBug/add-and-commit@v9.0.0
+          path: build/
+
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
-          default_author: github_actions
-          message: Deployment
+          folder: build # The folder the action should deploy.
