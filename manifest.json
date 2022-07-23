@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-2c86b1f6.js",
+    "file": "_app/immutable/start-6d7f120e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -54,13 +54,14 @@
     ]
   },
   "src/routes/callback.svelte": {
-    "file": "_app/immutable/pages/callback.svelte-c049a408.js",
+    "file": "_app/immutable/pages/callback.svelte-e49efce7.js",
     "src": "src/routes/callback.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-545e3c05.js",
       "_navigation-75a744b1.js",
+      "_paths-b9644fda.js",
       "_login_store-a1904add.js",
       "_api-374feec2.js",
       "_singletons-eca981c1.js",
@@ -68,13 +69,14 @@
     ]
   },
   "src/routes/dash/index.svelte": {
-    "file": "_app/immutable/pages/dash/index.svelte-c41dc981.js",
+    "file": "_app/immutable/pages/dash/index.svelte-544ba1b8.js",
     "src": "src/routes/dash/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-545e3c05.js",
       "_navigation-75a744b1.js",
+      "_paths-b9644fda.js",
       "_index-7681234b.js",
       "_login_store-a1904add.js",
       "_api-374feec2.js",
@@ -106,7 +108,7 @@
     ]
   },
   "src/routes/logout.svelte": {
-    "file": "_app/immutable/pages/logout.svelte-26c9e147.js",
+    "file": "_app/immutable/pages/logout.svelte-d7a20a7c.js",
     "src": "src/routes/logout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -114,6 +116,7 @@
       "_index-545e3c05.js",
       "_login_store-a1904add.js",
       "_navigation-75a744b1.js",
+      "_paths-b9644fda.js",
       "_index-7681234b.js",
       "_singletons-eca981c1.js"
     ]
